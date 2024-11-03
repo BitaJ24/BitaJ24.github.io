@@ -1,0 +1,31 @@
+article {
+  position: relative;
+}
+#addToCartBtn {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  border-radius: 50%;
+  display: none;
+  box-shadow: 0 4px 4px #00000026;
+}
+article:hover #addToCartBtn {
+  display: inline-block;
+}
+#message {
+  background-color: green;
+  text-align: center;
+  padding: 10px;
+  color: aliceblue;
+  position: fixed;
+  left: 20px;
+  box-shadow: 0px 2px 5px black;
+  bottom: 0;
+  z-index: 1;
+  border-radius: 5px;
+}
+.price {
+  color: rgb(93, 97, 103);
+  font-size: 13px;
+  font-weight: 700;
+}

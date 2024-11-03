@@ -1,0 +1,45 @@
+#section-header {
+  background-image: url("./Help/material/hero-bg.jpg");
+  background-size: cover;
+  background-position: 90% 60%;
+  height: 650px;
+  border-bottom-left-radius: 80px;
+  border-bottom-right-radius: 80px;
+}
+li {
+  font-size: 20px;
+  font-weight: 500;
+}
+li a:hover {
+  color: #dc3545 !important;
+}
+h2 {
+  font-size: 60px;
+}
+#shopNow:hover {
+  background-color: yellowgreen !important;
+}
+#shopNow {
+  color: aliceblue !important;
+  background-color: #fc5f5f !important;
+  transition: all 0.5s ease !important;
+}
+#title {
+  margin-left: 15%;
+}
+@media screen and (max-width: 604px) {
+  .responsive-nav {
+    /* display: flex !important; */
+    /* flex-wrap: wrap; */
+    /* flex-direction: column; */
+    /* gap: 30px; */
+    /* align-items: center !important; */
+    /* justify-content: center !important; */
+  }
+  #cart {
+    right: 20%;
+  }
+  #title {
+    margin-left: 0;
+  }
+}
